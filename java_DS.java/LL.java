@@ -38,7 +38,6 @@ class Linkedlist{
         Node new_n = new Node(d);
         if(head == null){
             head = new Node(d);
-            return ;
         }else{
             Node n = head;
             //new_n.next = null;
