@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 class LL{
     public static void main(String[]args){
         Linkedlist l = new Linkedlist();
