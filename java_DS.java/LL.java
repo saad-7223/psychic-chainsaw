@@ -40,7 +40,6 @@ class Linkedlist{
             head = new Node(d);
         }else{
             Node n = head;
-            //new_n.next = null;
             while(n.next!=null){
                 n=n.next;
             }
@@ -92,5 +91,6 @@ class Linkedlist{
             }
             return count;
         }
+        
     }
 }
