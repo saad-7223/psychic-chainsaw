@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "tests.java",
+        "temp.java",
+        "java_DS.java/DS",
+        "DS_temp.java"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
