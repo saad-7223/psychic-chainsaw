@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class Student{
     private int roll;
     private String name;
@@ -24,7 +24,7 @@ class Student{
 }
 public class SortStudents {
     public static void main(String args[]){
-        List stu= new ArrayList();
+        ArrayList stu= new ArrayList();
         Student st1= new Student();
         st1.setRoll(101);
         st1.setName("Amit");
@@ -54,4 +54,4 @@ public class SortStudents {
             System.out.println(" "+stud.getMarks());
         }
     }
-}*/
+}

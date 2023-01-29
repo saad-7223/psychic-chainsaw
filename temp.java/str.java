@@ -18,7 +18,7 @@ public class str {
 		String x[] = a;
 		for(int i=0; i<a.length; i++) {
 			for(int j=i+1;j<a.length;j++) {
-				if(a[i].compareToIgnoreCase(a[j])<0) {
+				if(a[i].compareToIgnoreCase(a[j])>0) {
 					String temp=x[i];
 					x[i]=x[j];
 					x[j]=temp;
