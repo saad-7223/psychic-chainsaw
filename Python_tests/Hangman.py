@@ -1,3 +1,4 @@
+import H1
 chosenWord = "beekeeper"
 gameOver = False # state variable
 lives = 6
@@ -5,6 +6,7 @@ lives = 6
 display = []
 for _ in chosenWord:
     display += '_'
+#print(display)    
 
 
 while not gameOver:
@@ -26,9 +28,8 @@ while not gameOver:
             gameOver = True
             print('You Loose')
     print(display)
-    print(hangman_art.stages[lives])
+    print(H1.stages[lives])
 
     if '_' not in display:
         gameOver = True # state variable
         print("You Win")
-        
