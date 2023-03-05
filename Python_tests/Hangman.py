@@ -26,7 +26,7 @@ while not gameOver:
         lives -=1
         if lives == 0:
             gameOver = True
-            print('You Loose')
+            print('You Lose')
     print(display)
     print(H1.stages[lives])
 
